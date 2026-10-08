@@ -1,0 +1,2 @@
+# Demo API keys (replace in production; prefer CLINICAL_API_KEYS env var)
+demo-key-123

@@ -1,0 +1,23 @@
+# PII detection configuration (Presidio-style)
+enabled_entities:
+  - SSN
+  - PHONE
+  - EMAIL
+  - MRN
+  - DATE
+  - PERSON
+  - ZIP
+
+default_threshold: 0.5
+
+# Per-entity confidence thresholds. Raise to reduce false positives,
+# lower to catch more (at the cost of over-redaction).
+thresholds:
+  SSN: 0.9
+  PHONE: 0.9
+  EMAIL: 0.95
+  MRN: 0.9
+  DATE: 0.85
+  PERSON: 0.8
+  ZIP: 0.85          # ZIP alone is weak signal; keep threshold high
+  CREDIT_CARD: 0.85
