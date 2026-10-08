@@ -1,9 +1,5 @@
-"""Privacy package: PII detection + redaction with audit-safe mapping."""
+"""Audit package: tamper-evident JSONL audit logging."""
 
-from .detector import PIIDetection, PIIDetector
-from .redactor import PIIRedactor, RedactionMap, RedactionResult
+from .logger import AuditLogger, AuditRecord
 
-__all__ = [
-    "PIIDetection", "PIIDetector",
-    "PIIRedactor", "RedactionMap", "RedactionResult",
-]
+__all__ = ["AuditLogger", "AuditRecord"]
