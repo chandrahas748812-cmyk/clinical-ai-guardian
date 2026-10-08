@@ -1,0 +1,40 @@
+Patient: James Carter
+DOB: 03/14/1968
+MRN: MC-884210
+SSN: 123-45-6789
+Phone: (214) 555-0147
+Email: j.carter.fake@example.com
+
+CHIEF COMPLAINT:
+Type 2 diabetes mellitus, follow-up visit.
+
+HISTORY OF PRESENT ILLNESS:
+Mr. Carter is a 58-year-old male with type 2 diabetes diagnosed in 2019.
+He reports good medication adherence. He denies hypoglycemic episodes.
+Blood glucose logs show fasting readings 130-150 mg/dL over the past month.
+
+MEDICATIONS:
+- Metformin 500mg twice daily with meals
+- Lisinopril 10mg daily for hypertension
+- Atorvastatin 20mg daily at bedtime
+
+ALLERGIES:
+- Penicillin (rash)
+
+VITALS:
+- BP: 138/86 mmHg
+- HR: 72 bpm
+- Weight: 92 kg
+
+LABS (drawn 09/28/2026):
+- HbA1c: 7.2%
+- LDL: 98 mg/dL
+- Creatinine: 1.0 mg/dL
+
+ASSESSMENT AND PLAN:
+1. Type 2 diabetes mellitus - continue metformin 500mg twice daily. Recheck HbA1c in 3 months.
+2. Hypertension - continue lisinopril 10mg daily. Encouraged home BP monitoring.
+3. Hyperlipidemia - continue atorvastatin 20mg daily.
+
+Dr. Emily Nguyen, MD
+Date: 10/02/2026

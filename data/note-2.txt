@@ -1,0 +1,34 @@
+Patient: Maria Santos
+DOB: 07/22/1975
+MRN: MC-915233
+Phone: 469-555-0192
+
+CHIEF COMPLAINT:
+Cardiac follow-up, hypertension management.
+
+HISTORY:
+Ms. Santos is a 51-year-old female with hypertension diagnosed 2021 and
+hyperlipidemia. She reports occasional headaches. No chest pain, no shortness
+of breath. She walks 30 minutes daily.
+
+MEDICATIONS:
+- Lisinopril 10mg daily
+- Amlodipine 5mg daily added 06/2026 for uncontrolled BP
+
+ALLERGIES:
+- No known drug allergies
+
+VITALS:
+- BP: 142/90 mmHg
+- HR: 68 bpm
+
+CARDIAC HISTORY:
+- Hypertension, diagnosed 2021, on lisinopril
+- Echocardiogram 2025: normal LV function, no wall motion abnormalities
+- Stress test 2025: negative for ischemia
+
+PLAN:
+Continue current regimen. Recheck BP in 4 weeks. Low-sodium diet reinforced.
+
+Dr. Robert Kim, MD
+Date: 09/15/2026
