@@ -1,10 +1,9 @@
-"""Agents package: clinical Q&A state machine (LangGraph with fallback)."""
+"""Privacy package: PII detection + redaction with audit-safe mapping."""
 
-from .graph import ClinicalAgent, build_langgraph_app, run_sequential
-from .state import AgentState
-from . import tools
+from .detector import PIIDetection, PIIDetector
+from .redactor import PIIRedactor, RedactionMap, RedactionResult
 
 __all__ = [
-    "AgentState", "ClinicalAgent", "build_langgraph_app", "run_sequential",
-    "tools",
+    "PIIDetection", "PIIDetector",
+    "PIIRedactor", "RedactionMap", "RedactionResult",
 ]
