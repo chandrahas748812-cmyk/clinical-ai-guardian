@@ -1,0 +1,17 @@
+# Guardrail policy configuration
+input:
+  max_chars: 2000
+  min_chars: 3
+  strict_topic: true        # block non-clinical queries
+  block_injection: true     # block prompt-injection patterns
+
+output:
+  min_groundedness: 0.35    # below -> HITL escalation
+  require_citations: true
+  add_disclaimer: true
+
+hitl:
+  # Intents / risk tiers requiring human approval before responding
+  approval_required_for: ["high-risk"]
+  approval_on_escalation_for: ["qa", "summarize", "extract"]
+  default_decision: reject  # safe default for non-interactive runs

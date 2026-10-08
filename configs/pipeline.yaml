@@ -1,0 +1,19 @@
+# Retrieval pipeline configuration
+chunking:
+  strategy: semantic          # fixed | semantic | hierarchical
+  fixed: { size: 800, overlap: 120 }
+  semantic: { max_chars: 1200, min_chars: 200 }
+  hierarchical: { parent_max: 1500, child_size: 400, child_overlap: 60 }
+
+retrieval:
+  top_k: 5
+  prefetch: 20
+  dense_weight: 1.0
+  bm25_weight: 1.0
+
+embeddings:
+  model: all-MiniLM-L6-v2     # used when sentence-transformers is installed
+  mock_dim: 384               # mock fallback dimension
+
+rerank:
+  top_k: 5

@@ -1,0 +1,1 @@
+{"max_latency_ms":5000,"min_groundedness":0.4,"min_pass_rate":0.8,"note":"Blessed baseline for the regression gate. Update deliberately via --update-baseline after reviewing diffs."}
